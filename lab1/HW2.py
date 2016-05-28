@@ -10,3 +10,4 @@ for i in l:
   i2=int(i)
 print(mx2)
 print()
+input()
