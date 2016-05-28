@@ -1,6 +1,11 @@
 x=input()
-l=list(x)
+l=list()
 i2=1
+
+x=x+','
+for i in range(len(x)):
+ if x[i]!=',':
+   l.append(int(x[i]))
 mx=max(l)
 for i in l:
   if(int(i)!=int(mx)):
@@ -9,5 +14,4 @@ for i in l:
    else: mx2=int(i2)
   i2=int(i)
 print(mx2)
-print()
 input()
