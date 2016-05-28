@@ -14,10 +14,6 @@ for i in z:
   u=''
  else:
    u=u+i
- '''
-for i in range(0,l.count(',')):
- l.remove(',')
- '''
 print(l)
 a=list()
 i=0
