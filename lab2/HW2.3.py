@@ -11,7 +11,6 @@ for i in z:
  else:
    u=u+i
 z=len(l)-1
-rich=1
 weight=0
 while z>=rstep:
   minw=int('9999')
